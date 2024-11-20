@@ -1,0 +1,63 @@
+.progress-bar-container {
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 400px;
+  }
+  
+  .progress-bar-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progress-bar-fill {
+    background-color: rgb(211, 88, 17);
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .progress-bar-percentage {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #555;
+  }
+  
+
+
+  /* profile */
+
+.profile-container h1 {
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.profile-container hr{
+    width: 100%;
+    height: 5px;
+}
+  .profile-lists {
+    list-style: none;
+    font-size: 24px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .profile-lists li{
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    padding: 10px;
+    padding-left: 10%;
+    font-weight: 300;
+  }

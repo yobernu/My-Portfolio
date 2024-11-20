@@ -1,0 +1,51 @@
+/* Footer Styling */
+.footer {
+    background-color: rgb(61, 52, 48);  /* RGB color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  .footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .footer .social-icons {
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .footer .social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer .social-icons a:hover {
+    color: rgb(211, 88, 17); /* Darker color for hover effect */
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      padding: 15px 0;
+    }
+  
+    .footer .footer-content {
+      padding: 0 10px;
+    }
+  
+    .footer .social-icons a {
+      font-size: 1rem;
+    }
+  }
+  

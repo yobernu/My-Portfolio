@@ -1,0 +1,56 @@
+.main-body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-bg{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+}
+
+.main-body h1{
+    text-align: center;
+    align-items: center;
+    padding-top: 180px;
+    font-size: 58px;
+    color: rgb(60, 64, 67);
+    text-transform: uppercase;
+}
+
+.main-body h2{
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(211, 88, 17, 0.1); 
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.main-body p {
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.main-body-btn {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: rgb(223, 128, 65);
+    color: white;
+}
+ 

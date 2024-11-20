@@ -1,0 +1,81 @@
+/* Contact Page Styling */
+.contact-page {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-page h2 {
+    font-size: 2rem;
+    color: rgb(211, 88, 17);  /* RGB color */
+    margin-bottom: 15px;
+  }
+  
+  .contact-page p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .input-group textarea {
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    background-color: rgb(211, 88, 17);
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: rgb(255, 115, 40); /* Lighter shade for hover */
+  }
+  
+  @media (max-width: 768px) {
+    .contact-form {
+      padding: 20px;
+    }
+    .contact-page h2 {
+      font-size: 1.8rem;
+    }
+    .input-group input,
+    .input-group textarea {
+      font-size: 0.9rem;
+    }
+  }
+  

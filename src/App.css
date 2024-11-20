@@ -1,0 +1,21 @@
+.resume {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume h2{
+    font-size: 68px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.resume hr {
+    height: 5px;
+    width: 70%;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
