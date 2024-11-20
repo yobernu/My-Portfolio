@@ -1,36 +1,37 @@
-import { BsLinkedin } from 'react-icons/bs';
-import { BsTwitter } from 'react-icons/bs';
-import { BsGithub } from 'react-icons/bs';
-import { BsTelegram } from 'react-icons/bs';
+import { BsLinkedin, BsTwitter, BsGithub, BsTelegram } from 'react-icons/bs';
 import { SiLeetcode } from 'react-icons/si';
 
-
 const socials = [
-    { 
-        id: 1,
-        name: "Twitter", 
-        link: 'https://twitter.com', 
-        img: {BsTwitter} },
-    { 
-        id: 2,
-        name: "Linkedin", 
-        link: 'https://linkedin.com',
-        img: {BsLinkedin}},
-    { 
-        id: 3,
-        name: "Github", 
-        link: "https://github.com'", 
-        img: {BsGithub} },
-    { 
-        id: 4,
-        name: "leetcode", 
-        link: "https://leetcode.com'",
-        img: {SiLeetcode} },
-    { 
-        id: 5,
-        name: "telegram", 
-        link: "https://telegram.com'",
-        img: {SiLeetcode} } 
-  ];
+  {
+    id: 1,
+    name: "Twitter",
+    link: 'https://x.com/yoseph4043',
+    icon: BsTwitter,
+  },
+  {
+    id: 2,
+    name: "LinkedIn",
+    link: 'https://www.linkedin.com/in/yoseph-n-berhanu/',
+    icon: BsLinkedin,
+  },
+  {
+    id: 3,
+    name: "GitHub",
+    link: 'https://github.com/yobernu',
+    icon: BsGithub,
+  },
+  {
+    id: 4,
+    name: "LeetCode",
+    link: 'https://leetcode.com/yobernu',
+    icon: SiLeetcode,
+  },
+  {
+    id: 5,
+    name: "Telegram",
+    link: 'https://t.me/@Yoseph_B',
+    icon: BsTelegram,
+  },
+];
 
-  export default socials;
+export default socials;

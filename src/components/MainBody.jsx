@@ -7,7 +7,7 @@ import bgImg from './../assets/Images/bg-img.jpg'
 
 function MainBody({ item }) {
   return (
-    <div className='main-body'>
+    <div className='main-body' id='home'>
         <img className='main-bg' src={bgImg} />
         <h1>{item.name}</h1>
         <h2>{item.title}</h2>

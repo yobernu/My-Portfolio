@@ -24,7 +24,7 @@ function Contact() {
   };
 
   return (
-    <div className="contact-page">
+    <div className="contact-page" id='contact'>
       <h2>Contact Me</h2>
       <p>I'd love to hear from you! Please leave a comment below:</p>
 
