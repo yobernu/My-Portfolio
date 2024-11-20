@@ -24,42 +24,54 @@ import Footer from './components/Footer';
 function App() {
       const [count, setCount] = useState(0);
 
-      function renderCards() {
-         return mybody.map((item) => {
-            return <MainBody key={item.id} item={item} />
-         }
+    //   function renderCards() {
+    //      return mybody.map((item) => {
+    //         return <MainBody key={item.id} item={item} />
+    //      }
           
-        );
-      }
+    //     );
+    //   }
 
-      function renderWorks() {
-        return mywork.map((item) => {
-           return <Mywork key={item.id} item={item} />
-        }
+    //   function renderWorks() {
+    //     return mywork.map((item) => {
+    //        return <Mywork key={item.id} item={item} />
+    //     }
          
-       );
-     }
+    //    );
+    //  }
 
-     function renderPortfolio() {
-      return myportfolio.map((item) => {
-        return <PortfolioComponents key={item.id} item={item} />
-      });
-     }
+    //  function renderPortfolio() {
+    //   return myportfolio.map((item) => {
+    //     return <PortfolioComponents key={item.id} item={item} />
+    //   });
+    //  }
 
 
       
 
-      function renderProfile() {
-        return profile.map((item) => {
-          return <Profile key={item.id} item={item} />
-        });
-       }
+    //   function renderProfile() {
+    //     return profile.map((item) => {
+    //       return <Profile key={item.id} item={item} />
+    //     });
+    //    }
       
-       function renderSocialHandles() {
-        return socials.map((item) => {
-          return <Footer key={item.id} item={item} />
-        });
-       }
+    //    function renderSocialHandles() {
+    //     return socials.map((item) => {
+    //       return <Footer key={item.id} item={item} />
+    //     });
+    //    }
+
+        function renderComponents(array, Component) {
+          return array.map((item) => <Component key={item.id} item={item} />);
+        }
+        
+        // Usage:
+        const renderCards = () => renderComponents(mybody, MainBody);
+        const renderWorks = () => renderComponents(mywork, Mywork);
+        const renderPortfolio = () => renderComponents(myportfolio, PortfolioComponents);
+        const renderProfile = () => renderComponents(profile, Profile);
+        const renderSocialHandles = () => renderComponents(socials, Footer);
+        
       
       return (
         <div>
